@@ -30,7 +30,7 @@ This town has 5 locations and 3 customers. It is mainly intended as a (slightly)
 
 There are two tests to complete: one gives you only a single car, the other gives you three.
 
-A scrawled diagram of this network is shown below:
+A scrawled diagram of this scenario is shown below:
 
 <img src="SimpleTown.jpg" width="512"/>
 
@@ -40,6 +40,6 @@ This town has a 4x4 grid of 16 locations, with roads between most adjacent locat
 
 There is a single test to complete, with 13 customers and 5 cars.
 
-A scrawled diagram of this network is shown below:
+A scrawled diagram of this scenario's town is shown below:
 
 <img src="RingTown.jpg" width="512"/>
