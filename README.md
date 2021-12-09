@@ -24,7 +24,7 @@ This project uses nullable reference types, so objects cannot be null unless exp
 
 ## Scenario: SimpleTown
 
-This town has 5 locations and 3 customers. It is mainly intended to 
+This town has 5 locations and 3 customers. It is mainly intended as a (slightly) easier introduction.
 
 There are two tests to complete: one gives you only a single car, the other gives you three.
 
