@@ -14,6 +14,8 @@ You can only interact with the scenario by calling `Travel`, `PickUp` and `DropO
 To compete with others, try to minimise either the _total difference travelled_ by all cars, or the _longest distance travelled_ by any one car.
 
 ### Caveats
+The output of each test will include the two metrics described above, and will also log the actions of every car.
+
 Each car can hold any number of passengers.
 
 This project is in .NET 6, so you'll need Visual Studio 2022.
