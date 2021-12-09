@@ -42,61 +42,61 @@ namespace RoutePlanningTests
                 }
             };
 
-            a.AddRoad(new Road(e, 2));
+            a.AddRoad(new Road(e, 2.2m));
             
-            b.AddRoad(new Road(c, 2));
+            b.AddRoad(new Road(c, 2.05m));
             
-            c.AddRoad(new Road(d, 2));
-            c.AddRoad(new Road(g, 2));
+            c.AddRoad(new Road(d, 1.85m));
+            c.AddRoad(new Road(g, 2.15m));
 
-            d.AddRoad(new Road(h, 2));
+            d.AddRoad(new Road(h, 2.05m));
 
-            e.AddRoad(new Road(f, 2));
+            e.AddRoad(new Road(f, 1.75m));
 
-            f.AddRoad(new Road(a, 3));
-            f.AddRoad(new Road(b, 2));
-            f.AddRoad(new Road(g, 2));
-            f.AddRoad(new Road(j, 2));
-            f.AddRoad(new Road(i, 3));
+            f.AddRoad(new Road(a, 3.15m));
+            f.AddRoad(new Road(b, 2.2m));
+            f.AddRoad(new Road(g, 1.95m));
+            f.AddRoad(new Road(j, 1.85m));
+            f.AddRoad(new Road(i, 2.75m));
 
-            g.AddRoad(new Road(c, 2));
-            g.AddRoad(new Road(k, 2));
-            g.AddRoad(new Road(f, 2));
+            g.AddRoad(new Road(c, 2.10m));
+            g.AddRoad(new Road(k, 2.20m));
+            g.AddRoad(new Road(f, 2.15m));
 
-            h.AddRoad(new Road(g, 2));
+            h.AddRoad(new Road(g, 1.65m));
 
-            i.AddRoad(new Road(j, 2));
-            i.AddRoad(new Road(m, 2));
+            i.AddRoad(new Road(j, 2.30m));
+            i.AddRoad(new Road(m, 1.70m));
 
-            j.AddRoad(new Road(f, 2));
-            j.AddRoad(new Road(k, 2));
-            j.AddRoad(new Road(n, 2));
-            j.AddRoad(new Road(i, 2));
+            j.AddRoad(new Road(f, 1.95m));
+            j.AddRoad(new Road(k, 2.30m));
+            j.AddRoad(new Road(n, 2.05m));
+            j.AddRoad(new Road(i, 1.90m));
 
-            k.AddRoad(new Road(g, 2));
-            k.AddRoad(new Road(l, 2));
-            k.AddRoad(new Road(o, 2));
-            k.AddRoad(new Road(j, 2));
+            k.AddRoad(new Road(g, 2m));
+            k.AddRoad(new Road(l, 2.25m));
+            k.AddRoad(new Road(o, 1.75m));
+            k.AddRoad(new Road(j, 2.25m));
 
-            l.AddRoad(new Road(p, 2));
-            l.AddRoad(new Road(o, 3));
+            l.AddRoad(new Road(p, 2.05m));
+            l.AddRoad(new Road(o, 3.20m));
 
-            m.AddRoad(new Road(i, 2));
-            m.AddRoad(new Road(n, 2));
+            m.AddRoad(new Road(i, 2.10m));
+            m.AddRoad(new Road(n, 2.00m));
 
-            n.AddRoad(new Road(j, 2));
-            n.AddRoad(new Road(o, 2));
-            n.AddRoad(new Road(m, 2));
+            n.AddRoad(new Road(j, 2.05m));
+            n.AddRoad(new Road(o, 1.80m));
+            n.AddRoad(new Road(m, 1.90m));
 
-            o.AddRoad(new Road(j, 3));
-            o.AddRoad(new Road(l, 3));
-            o.AddRoad(new Road(p, 2));
-            o.AddRoad(new Road(n, 2));
+            o.AddRoad(new Road(j, 3.05m));
+            o.AddRoad(new Road(l, 3.15m));
+            o.AddRoad(new Road(p, 2.05m));
+            o.AddRoad(new Road(n, 2.15m));
 
-            a.AddRoad(new Road(d, 4));
-            d.AddRoad(new Road(p, 4));
-            p.AddRoad(new Road(m, 4));
-            m.AddRoad(new Road(a, 4));
+            a.AddRoad(new Road(d, 4.25m));
+            d.AddRoad(new Road(p, 4.25m));
+            p.AddRoad(new Road(m, 4.25m));
+            m.AddRoad(new Road(a, 4.25m));
 
             var fleet = new Scenario(town)
             {
