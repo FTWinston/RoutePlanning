@@ -7,7 +7,7 @@ A town is represented as a directed graph, with vertices being _locations_, and 
 In locations around this town you have several cars, which can travel to other locations along connecting roads.
 In locations around this town are several customers, each of whom wishes to travel to a specific destination.
 
-You should implement the `Resolve` method in the `RoutePlanningService` class, to ensure that all customers have reached their destination (`customer.IsSatisfied()` will be `true` when a customer is at their destination).
+You should implement the `Resolve` method in the `RoutePlanningService` class, to ensure that all customers have reached their destination. The `customer.IsSatisfied()` method will return `true` when a customer is at their destination.
 
 You can only interact with the scenario by calling `Travel`, `PickUp` and `DropOff` methods on your cars.
 
