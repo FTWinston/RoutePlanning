@@ -93,6 +93,28 @@ namespace RoutePlanningTests
             output.WriteLine(report);
 
             Assert.Empty(reporting.GetUnsatisfied(scenario));
+
+            /*
+             * Example output:
+            All customers are satisfied.
+            Total distance travelled: 33
+            Longest distance travelled: 33
+    
+            Car log: Adam
+            Picked up Xavier at Supermarket.
+            Travelled from Supermarket to Station.
+            Travelled from Station to Pub.
+            Dropped off Xavier at Pub.
+            Picked up Zach at Pub.
+            Travelled from Pub to Home.
+            Picked up Yvonne at Home.
+            Travelled from Home to Office.
+            Dropped off Zach at Office.
+            Travelled from Office to Supermarket.
+            Travelled from Supermarket to Station.
+            Dropped off Yvonne at Station.
+            Total distance: 33
+             */
         }
 
         [Fact]
@@ -107,6 +129,37 @@ namespace RoutePlanningTests
             output.WriteLine(report);
 
             Assert.Empty(reporting.GetUnsatisfied(scenario));
+
+            /*
+             * Example output:
+            All customers are satisfied.
+            Total distance travelled: 49
+            Longest distance travelled: 22
+    
+            Car log: Adam
+            Picked up Xavier at Supermarket.
+            Travelled from Supermarket to Station.
+            Travelled from Station to Pub.
+            Dropped off Xavier at Pub.
+            Total distance: 12
+    
+            Car log: Becca
+            Travelled from Station to Pub.
+            Picked up Zach at Pub.
+            Travelled from Pub to Home.
+            Travelled from Home to Office.
+            Dropped off Zach at Office.
+            Total distance: 15
+    
+            Car log: Charlie
+            Travelled from Office to Pub.
+            Travelled from Pub to Home.
+            Picked up Yvonne at Home.
+            Travelled from Home to Supermarket.
+            Travelled from Supermarket to Station.
+            Dropped off Yvonne at Station.
+            Total distance: 22
+             */
         }
     }
 }
