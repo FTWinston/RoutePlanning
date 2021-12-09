@@ -16,6 +16,8 @@ To compete with others, try to minimise either the _total difference travelled_ 
 ### Caveats
 The output of each test will include the two metrics described above, and will also log the actions of every car.
 
+Each road connection is one-way, though there may be corresponding road in the opposite direction.
+
 Each car can hold any number of passengers.
 
 This project is in .NET 6, so you'll need Visual Studio 2022.
